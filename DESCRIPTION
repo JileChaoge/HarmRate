@@ -1,0 +1,34 @@
+Package: HarmRate
+Type: Package
+Title: Estimating and Bounding the Treatment Harm Rate
+Version: 0.1.0
+Authors@R: c(person(given = "Jile", 
+          family = "Chaoge",
+          role = c("aut", "cre"),
+          email = "chogjill@126.com",
+          comment = c(ORCID = "0009-0009-1245-8602")),
+      person(given = "Fangrui", 
+          family = "Hu",
+          role = c("aut")),
+      person(given = "Xinkang", 
+          family = "Wang",
+          role = c("aut")),
+      person(given = "Peng", 
+          family = "Wu",
+          role = c("aut"))
+      )
+Description: Provides tools for quantifying individual-level treatment risk for binary outcomes, with a focus
+    on the harm rate. It includes functions to estimate the harm rate given a specified correlation
+    coefficient between potential outcomes, and to calculate the classical Fréchet–Hoeffding bounds 
+    for both the harm rate and the correlation coefficient.
+License: GPL-3
+Encoding: UTF-8
+Imports: stats
+RoxygenNote: 7.3.3
+NeedsCompilation: no
+Packaged: 2025-10-11 04:28:53 UTC; Admin
+Author: Jile Chaoge [aut, cre] (ORCID: <https://orcid.org/0009-0009-1245-8602>),
+  Fangrui Hu [aut],
+  Xinkang Wang [aut],
+  Peng Wu [aut]
+Maintainer: Jile Chaoge <chogjill@126.com>
